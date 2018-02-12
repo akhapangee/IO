@@ -1,0 +1,2418 @@
+
+
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+<link rel="shortcut icon" href="Picture/favicon.ico">
+
+<link rel="icon" type="image/gif" href="Picture/animated_favicon1.gif">
+
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+
+<meta http-equiv="Content-Type" content="video/mp4;" />
+
+
+
+<meta http-equiv="refresh" content="560">
+
+<title>Home</title>
+
+
+
+<script type="text/javascript" src="banner/banners.min.js"></script>
+
+
+
+<link rel="stylesheet" type="text/css" href="css/style.css" />
+
+<link href="header/menu/menuTemplate4.css" rel="stylesheet" type="text/css" />
+
+<script src="includes/jquery.js"></script>
+
+<script type="text/javascript" src="includes/animatedcollapse.js">
+
+/***********************************************
+
+* Animated Collapsible DIV v2.4- (c) Dynamic Drive DHTML code library (www.dynamicdrive.com)
+
+* This notice MUST stay intact for legal use
+
+* Visit Dynamic Drive at http://www.dynamicdrive.com/ for this script and 100s more
+
+***********************************************/
+
+</script>
+
+
+
+<script type="text/javascript">
+
+
+
+animatedcollapse.addDiv('os1', 'fade=0,speed=200,group=os,persist=1,hide=0')
+
+animatedcollapse.addDiv('os2', 'fade=0,speed=200,group=os,persist=0,hide=1')
+
+animatedcollapse.addDiv('os3', 'fade=0,speed=200,group=os,persist=0,hide=1')
+
+
+
+animatedcollapse.addDiv('op1', 'fade=0,speed=200,group=op,persist=1,hide=0')
+
+animatedcollapse.addDiv('op2', 'fade=0,speed=200,group=op,persist=1,hide=0')
+
+animatedcollapse.addDiv('op3', 'fade=0,speed=200,group=op,persist=0,hide=1')
+
+
+
+animatedcollapse.addDiv('ln1', 'fade=0,speed=200,group=ln,persist=1,hide=0')
+
+animatedcollapse.addDiv('ln2', 'fade=0,speed=200,group=ln,persist=0,hide=1')
+
+animatedcollapse.addDiv('ln3', 'fade=0,speed=200,group=ln,persist=0,hide=1')
+
+animatedcollapse.addDiv('ln4', 'fade=0,speed=200,group=ln,persist=0,hide=1')
+
+
+
+
+
+animatedcollapse.ontoggle=function($, divobj, state){ //fires each time a DIV is expanded/contracted
+
+	//$: Access to jQuery
+
+	//divobj: DOM reference to DIV being expanded/ collapsed. Use "divobj.id" to get its ID
+
+	//state: "block" or "none", depending on state
+
+}
+
+
+
+animatedcollapse.init()
+
+
+
+</script>
+
+
+
+<style type="text/css">
+
+.imgcontainer {
+
+	position:relative;
+
+	float:left;
+
+	line-height: 20px;
+
+	}
+
+.caption {
+
+	position:absolute;
+
+	bottom:0;
+
+	left:0;
+
+	text-align:center;
+
+	background:#fff;
+
+	width:100%;
+
+	opacity:.75;
+
+	filter:alpha(opacity=85);
+
+	color:#0066FF;
+
+	font-family: Arial, Helvetica, sans-serif;
+
+	font-size: 12px;
+
+	}
+
+</style>
+
+<script type="text/javascript">
+
+function addLoadEvent(func) {
+
+  var oldonload = window.onload;
+
+  if (typeof window.onload != 'function') {
+
+    window.onload = func;
+
+  } else {
+
+    window.onload = function() {
+
+      oldonload();
+
+      func();
+
+    }
+
+  }
+
+}
+
+
+
+function insertAfter(newElement,targetElement) {
+
+  var parent = targetElement.parentNode;
+
+  if (parent.lastChild == targetElement) {
+
+    parent.appendChild(newElement);
+
+  } else {
+
+    parent.insertBefore(newElement,targetElement.nextSibling);
+
+  }
+
+}
+
+
+
+function captionizeImages() {
+
+  if (!document.getElementsByTagName) return false;
+
+  if (!document.createElement) return false;
+
+  var images = document.getElementsByTagName("img");
+
+  if (images.length < 1) return false; 
+
+  for (var i=0; i<images.length; i++) {
+
+    if (images[i].className.indexOf("captioned") != -1) {
+
+      var title = images[i].getAttribute("title");
+
+      var divCaption = document.createElement("div");
+
+      divCaption.className="caption";
+
+      var divCaption_text = document.createTextNode(title);
+
+      divCaption.appendChild(divCaption_text);
+
+      var divContainer = document.createElement("div");
+
+      divContainer.className="imgcontainer";
+
+      images[i].parentNode.insertBefore(divContainer,images[i]);
+
+      divContainer.appendChild(images[i]);
+
+      insertAfter(divCaption,images[i]);
+
+    }
+
+  }
+
+}
+
+addLoadEvent(captionizeImages);
+
+</script>
+
+
+
+
+
+ <script type="text/javascript">
+
+        function popupcall() {
+w=363; h=290;
+ var dualScreenLeft = window.screenLeft != undefined ? window.screenLeft : screen.left;
+    var dualScreenTop = window.screenTop != undefined ? window.screenTop : screen.top;
+
+    var width = window.innerWidth ? window.innerWidth : document.documentElement.clientWidth ? document.documentElement.clientWidth : screen.width;
+    var height = window.innerHeight ? window.innerHeight : document.documentElement.clientHeight ? document.documentElement.clientHeight : screen.height;
+
+    var left = ((width / 2) - (w / 2)) + dualScreenLeft;
+    var top = ((height / 2) - (h / 2)) + dualScreenTop;
+  //  var newwindow = window.open('popup/popwin.html','Carerer', 'menubar=no,scrollbars=yes, width=' + w + ', height=' + h + ', top=' + top + ', left=' + left);
+	
+		//newwindow=window.open('popup/popwin.html','name','top=200,left=500,height=270,width=310','location=0');
+
+	if (window.focus) {newwindow.focus()}
+
+	return false;
+
+        }
+
+
+
+        </script>
+
+<!-- 50 years Logo section start-->
+
+<style type="text/css">
+#topbar{
+position:absolute;
+background-color:transparent;
+border: 0px solid black;
+padding: 2px;
+width: 150px;
+visibility: hidden;
+z-index: 100;
+}
+
+}
+
+</style>
+
+<script type="text/javascript">
+
+/***********************************************
+* Floating Top Bar - RBB 50 Years
+***********************************************/
+
+var persistclose=0 //set to 0 or 1. 1 means once the bar is manually closed, it will remain closed for browser session
+var startX = 10 //set x offset of bar in pixels
+var startY = 10 //set y offset of bar in pixels
+var verticalpos="fromtop" //enter "fromtop" or "frombottom"
+
+function iecompattest(){
+return (document.compatMode && document.compatMode!="BackCompat")? document.documentElement : document.body
+}
+
+function get_cookie(Name) {
+var search = Name + "="
+var returnvalue = "";
+if (document.cookie.length > 0) {
+offset = document.cookie.indexOf(search)
+if (offset != -1) {
+offset += search.length
+end = document.cookie.indexOf(";", offset);
+if (end == -1) end = document.cookie.length;
+returnvalue=unescape(document.cookie.substring(offset, end))
+}
+}
+return returnvalue;
+}
+
+function closebar(){
+if (persistclose)
+document.cookie="remainclosed=1"
+document.getElementById("topbar").style.visibility="hidden"
+}
+
+function staticbar(){
+	barheight=document.getElementById("topbar").offsetHeight
+	var ns = (navigator.appName.indexOf("Netscape") != -1) || window.opera;
+	var d = document;
+	function ml(id){
+		var el=d.getElementById(id);
+		if (!persistclose || persistclose && get_cookie("remainclosed")=="")
+		el.style.visibility="visible"
+		if(d.layers)el.style=el;
+		el.sP=function(x,y){this.style.left=x+"px";this.style.top=y+"px";};
+		el.x = startX;
+		if (verticalpos=="fromtop")
+		el.y = startY;
+		else{
+		el.y = ns ? pageYOffset + innerHeight : iecompattest().scrollTop + iecompattest().clientHeight;
+		el.y -= startY;
+		}
+		return el;
+	}
+	window.stayTopLeft=function(){
+		if (verticalpos=="fromtop"){
+		var pY = ns ? pageYOffset : iecompattest().scrollTop;
+		ftlObj.y += (pY + startY - ftlObj.y)/8;
+		}
+		else{
+		var pY = ns ? pageYOffset + innerHeight - barheight: iecompattest().scrollTop + iecompattest().clientHeight - barheight;
+		ftlObj.y += (pY - startY - ftlObj.y)/8;
+		}
+		ftlObj.sP(ftlObj.x, ftlObj.y);
+		setTimeout("stayTopLeft()", 10);
+	}
+	ftlObj = ml("topbar");
+	stayTopLeft();
+}
+
+if (window.addEventListener)
+window.addEventListener("load", staticbar, false)
+else if (window.attachEvent)
+window.attachEvent("onload", staticbar)
+else if (document.getElementById)
+window.onload=staticbar
+</script>
+<!-- 50 years Logo section end-->
+
+</head>
+
+
+
+<body onload="popupcall();" leftmargin="0" rightmargin="0" topmargin="0" bottommargin="0" style="background:#FFFFFF" >
+
+<!-- 50 years Logo section start-->
+<div id="topbar">
+<!--
+<a href="" onClick="closebar(); return false">
+<img src="Picture/close.gif" border="0" /></a>
+-->
+<!--
+<img src="Picture/RBB_50yrs_small.gif" width="150" border="0" />
+-->
+</div>
+<!-- 50 years Logo section end-->
+
+<!--header part--!>
+
+<!DOCTYPE html>
+<link href="./hitcounter/css/style.css" rel="stylesheet" type="text/css"  />
+
+<link href="menu/menuTemplate4.css" rel="stylesheet" type="text/css" />
+<!--Stat of Top Header !-->
+<link href="../css/style.css" rel="stylesheet" type="text/css" />
+<table width="1000" height="110"  border="0" cellpadding="0" cellspacing="0" 
+       align="center" background="Picture/top_header.gif" bgcolor="#FFFFFF">
+	<tr><td width="1000" height="4" valign="top" align="right" bgcolor="#FFFFFF"> 
+		<!-- top margin for header link-->
+        </td>
+    </tr>
+    <tr><td width="1000" height="20" valign="top" align="right"> 
+		<!-- header links -->
+		<a href="./index.php" class="link3">&nbsp;&nbsp;Home&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+		<a href="./intro.php" class="link4">&nbsp;&nbsp;About us&nbsp;&nbsp;&nbsp;&nbsp;</a>
+		<a href="./contacts.php" class="link5">&nbsp;&nbsp;Contact us</a>
+		&nbsp;
+		</td>
+	</tr> 
+	<tr><td width="1000" height="22" valign="top" align="right"  > 
+	
+		<form name="jksearch"  action="http://www.google.com/search" method="get" onSubmit="jksitesearch(this)">
+		<input id="hiddenquery" type="hidden" name="q" />
+		<input name="qfront"  type="text"   value="" style="position:relative; width:160px;" /><input type="submit"  value="Search" style="vertical-align:baseline; height:20;" class="button" align="left"/>
+		<br />
+		<div style="font: 10px Verdana; vertical-align:middle">
+		<font color="#0066FF" style="vertical-align:middle">Google:</font><input style="border:none; vertical-align:middle" name="se" type="radio" checked>  
+		<font color="#0066FF" style="vertical-align:middle">Yahoo:</font><input style="border:none; vertical-align:middle" name="se" type="radio">  
+		<font color="#0066FF" style="vertical-align:middle">MSN:</font><input style="border:none; vertical-align:middle" name="se" type="radio" >
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		</div>
+
+		<script type="text/javascript">
+		//Enter domain of site to search.
+		var domainroot="www.rbb.com.np"
+
+		var searchaction=[ //form action for the 3 search engines
+			"http://www.google.com/search",
+			"http://search.yahoo.com/search",
+			"http://search.msn.com/results.aspx"
+			]
+
+		var queryfieldname=["q","p","q"] //name of hidden query form for the 3 search engines
+
+		function switchaction(cur, index){
+		cur.form.action=searchaction[index]
+		document.getElementById("hiddenquery").name=queryfieldname[index]
+		}
+
+		function jksitesearch(curobj){
+		for (i=0; i< document.jksearch.se.length; i++){ //loop through radio to see which is checked
+			if (document.jksearch.se[i].checked==true)
+				switchaction(document.jksearch.se[i], i)
+			}
+		document.getElementById("hiddenquery").value="site:"+domainroot+" "+curobj.qfront.value
+		}
+		</script>
+		</form>
+
+		</td>
+	</tr> 
+	<tr><td></td></tr>
+</table>
+
+<!-- for Interest rate scroll,space,blue line,space -->
+<table width="1000" height="29" align="center" cellpadding="0" cellspacing="0" vspace="0" bgcolor="#FFFFFF">
+
+<!-- begin Interest rate scroll-->
+<tr>
+<td width="1000" height="30" bgcolor="#0F4F89" valign="middle">
+<!-- menu goes here -->
+<!DOCTYPE html>
+
+<link href="menuTemplate4.css" rel="stylesheet" type="text/css" />
+
+<ul class="menuTemplate4 decor4_1">
+
+    <li>&nbsp;<a href="#CSS-Menu"></a></li>
+
+    <li class="separator"></li>
+	<li><a href="./news/csr.php" class="arrow">CSR</a>
+    
+    <li class="separator"></li>
+	<li><a href="#Horizontal-Menus" class="arrow">Credit</a>
+
+        <div class="drop decor4_2" style="width: 620px;">
+
+            <div class='left' style="width:170px;">
+
+                <a href="./credit.php"><b>Business Loan</b></a>
+
+                <div>
+
+                    <img src="./Picture/arrow_blue.gif"  />&nbsp;&nbsp;<a href="./credit.php">Funded Loans</a><br />
+
+                    <img src="./Picture/arrow_blue.gif"  />&nbsp;&nbsp;<a href="./credit.php">Non-Funded Loans</a><br />
+
+                </div>
+
+            </div>
+
+            <div class='left' style="width:150px;">
+
+                <a href="./retailBanking.php"><b>Retail Loan</b></a>
+
+                <div>
+
+                    <img src="./Picture/arrow_blue.gif"  />&nbsp;&nbsp;<a href="./retailBanking.php">Housing Loan</a><br />
+
+                    <img src="./Picture/arrow_blue.gif"  />&nbsp;&nbsp;<a href="./retailBanking.php">Vehicle Loan</a><br />
+
+                    <img src="./Picture/arrow_blue.gif"  />&nbsp;&nbsp;<a href="./retailBanking.php">Education Loan</a><br />
+
+                    <img src="./Picture/arrow_blue.gif"  />&nbsp;&nbsp;<a href="./retailBanking.php">Apartment Loan</a><br />
+
+					<a href="./retailBanking.php">more ..</a>
+
+                </div>
+
+            </div>
+
+            
+
+			<div class='left' style="width:150px;">
+
+                <a href="./agrloan.php"><b>Agriculture Loan</b></a>
+
+                <div>
+
+                    <img src="./Picture/arrow_blue.gif"  />&nbsp;&nbsp;<a href="./agro_agronomy.php">Agronomy</a><br />
+
+                    <img src="./Picture/arrow_blue.gif"  />&nbsp;&nbsp;<a href="./agro_livestock.php">Livestock</a><br />
+
+					<img src="./Picture/arrow_blue.gif"  />&nbsp;&nbsp;<a href="./agrloan.php#3">Horticulture</a><br />
+
+					<img src="./Picture/arrow_blue.gif"  />&nbsp;&nbsp;<a href="./agrloan.php#4">Floriculture</a><br />
+
+					<a href="./agrloan.php">more..</a>
+
+                </div>
+
+            </div>
+
+            <div class='left' style="text-align:right; width:150px;">
+
+                <img src="./Picture/trading_loan_small.jpg" style="width:150px;" /><br />
+
+                <a href="www.rbb.com.np/credit.php">www.rbb.com.np/credit.php</a>
+
+            </div>
+
+            <div style='clear: both;'></div>
+
+        </div>
+
+    </li>
+
+    <li class="separator"></li>
+
+    <li><a href="#Horizontal-Menus" class="arrow">Deposit</a>
+
+        <div class="drop decor4_2" style="width: 400px;">
+
+            <div class='left' style="width:200px;">
+
+                <img src="./Picture/arrow_blue.gif"  />&nbsp;&nbsp;<a href="./current_ac.php">Current Account</a> <br />
+
+                <img src="./Picture/arrow_blue.gif"  />&nbsp;&nbsp;<a href="./saving_ac.php">Saving Account</a> <br />
+
+				<img src="./Picture/arrow_blue.gif"  />&nbsp;&nbsp;<a href="./fixed_ac.php">Fixed Account</a> <br />
+
+				<img src="./Picture/arrow_blue.gif"  />&nbsp;&nbsp;<a href="#">Karma Yogi Bachat Khata</a> <br />
+
+				<img src="./Picture/arrow_blue.gif"  />&nbsp;&nbsp;<a href="#">Maha Laxmi Bachat Khata</a> <br />
+
+                <img src="./Picture/arrow_blue.gif"  />&nbsp;&nbsp;<a href="#">Chuna Muna Bachat Khata</a> <br />
+
+                <img src="./Picture/arrow_blue.gif"  />&nbsp;&nbsp;<a href="#">Teacher's Bachat Khata</a> 
+
+            </div>
+
+            <div class='left' style="text-align:right; width:200px;">
+
+                <img src="./Picture/new_accounts.gif" style="width:200px;" />
+
+            </div>
+
+            <div style='clear: both;'></div>
+
+        </div>
+
+    </li>
+
+    <li class="separator"></li>
+
+    <li><a href="#Horizontal-Menus" class="arrow">Remittances</a>
+
+        <div class="drop decor4_2" style="width: 300px;">
+
+            <div class='left' style="width:150px;">
+
+                <img src="./Picture/arrow_blue.gif"  />&nbsp;&nbsp;<a href="./remit.php">RBB Remit Online </a> <br />
+
+				<img src="./Picture/arrow_blue.gif"  />&nbsp;&nbsp;<a href="./remit_korea.php">RBB - Korea Remit</a> <br />
+
+                <img src="./Picture/arrow_blue.gif"  />&nbsp;&nbsp;<a href="./swift.php">SWIFT</a> 
+
+            </div>
+
+            <div class='left' style="text-align:right; width:150px;">
+
+                <img src="./Picture/rt_284_rbbremit01.jpg" style="width:150px;" />
+
+            </div>
+
+            <div style='clear: both;'></div>
+
+        </div>
+
+    </li>
+
+    <li class="separator"></li>
+
+     <li><a href="#Horizontal-Menus" class="arrow">New Services</a>
+
+        <div class="drop decor4_2" style="width: 350px;">
+
+            <div class='left' style="width:150px;">
+
+                <img src="./Picture/arrow_blue.gif"  />&nbsp;&nbsp;<a href="./blb.php">Branchless Banking</a> <br />
+
+                <img src="./Picture/arrow_blue.gif"  />&nbsp;&nbsp;<a href="./cdm.php">Cash Deposit Machine</a> <br />
+
+				<img src="./Picture/arrow_blue.gif"  />&nbsp;&nbsp;<a href="./ebanking.php">Internet Banking</a> <br />
+
+				<img src="./Picture/arrow_blue.gif"  />&nbsp;&nbsp;<a href="./mPay.php">Mobile Pay</a> <br />
+
+				<img src="./Picture/arrow_blue.gif"  />&nbsp;&nbsp;<a href="./mbanking.php">Mobile Banking</a> <br />
+
+				<img src="./Picture/arrow_blue.gif"  />&nbsp;&nbsp;<a href="./atm.php">ATM / Card</a> 
+
+            </div>
+
+            <div class='left' style="text-align:right; width:200px;">
+
+                <img src="./Picture/rt_248_Mobilepay.gif" style="width:200px;" />
+
+            </div>
+
+            <div style='clear: both;'></div>
+
+        </div>
+
+    </li>
+
+    <li class="separator"></li>
+
+    <li><a href="#Horizontal-Menus" class="arrow">Notice</a>
+
+        <div class="drop decor4_2" style="width: 400px;">
+
+            <div class='left' style="width:130px;">
+
+				<div>
+
+				<img src="./Picture/arrow_blue.gif"  />&nbsp;&nbsp;<a href="./notice.php">General Notice</a> <br />
+                <img src="./Picture/arrow_blue.gif"  />&nbsp;&nbsp;<a href="./vacancynotice.php">Carer Notice</a> <br />
+                
+				<img src="./Picture/arrow_blue.gif"  />&nbsp;&nbsp;<a href="./tnotice.php">Tender Notice</a> <br />
+				<img src="./Picture/arrow_blue.gif"  />&nbsp;&nbsp;<a href="./RBB_Scholarship_Program.php">RBB Scholarship Program 2072</a>
+				</div>
+
+            </div>
+
+            <div class='left' style="text-align:right; width:270px;">
+
+                <img src="./Picture/newsletter_header.jpg" style="width:270px;" />
+
+            </div>
+
+            <div style='clear: both;'></div>
+
+        </div>
+
+    </li>
+
+    <li class="separator"></li>
+
+<li><a href="#Horizontal-Menus" class="arrow">Media</a>
+
+        <div class="drop decor4_2" style="width: 350px;">
+
+            <div class='left' style="width:130px;">
+
+				<div>
+
+                <img src="./Picture/arrow_blue.gif"  />&nbsp;&nbsp;<a href="./newsletter.php">News Letter</a> <br />
+                <img src="./Picture/arrow_blue.gif"  />&nbsp;&nbsp;<a href="./news/news_events.php">News and Events</a> <br />
+				<img src="./Picture/arrow_blue.gif"  />&nbsp;&nbsp;<a href="./pressrelease.php">Press Release</a>
+
+				</div>
+
+            </div>
+
+            <div class='left' style="text-align:right; width:270px;">
+
+                <img src="./Picture/newsletter_header.jpg" style="width:270px;" />
+                
+
+            </div>
+
+            <div style='clear: both;'></div>
+
+        </div>
+
+    </li>
+
+    <li class="separator"></li>
+
+    <li><a href="#Web-Menus" class="arrow">Other Services</a>
+
+        <div class="drop decor4_2 dropToLeft" style="width: 300px;">
+
+            <img src="./Picture/abbs_menu.gif" style="float:left; width:165px;
+
+                height:89px;margin:0px 0px 0px 0px;" />
+
+            <div class='left'>
+
+                <div>
+
+                    <img src="./Picture/arrow_blue.gif"  />&nbsp;&nbsp;<a href="./abbs.php">ABBS</a><br />
+
+                    <img src="./Picture/arrow_blue.gif"  />&nbsp;&nbsp;<a href="#">Locker</a><br />
+
+                    <img src="./Picture/arrow_blue.gif"  />&nbsp;&nbsp;<a href="./trade_finance.php">Trade Finance</a><br />
+
+					<img src="./Picture/arrow_blue.gif"  />&nbsp;&nbsp;<a href="./sfafservice.php">SFAF Service</a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </li>
+
+	<li class="separator"></li>
+
+	
+
+	<li><a href="#Web-Menus" class="arrow">About Us</a>
+
+        <div class="drop decor4_2 dropToLeft" style="width: 380px;">
+
+            <img src="./Picture/rbb_preview.jpg" style="float:left; width:200px;
+
+                height:104px;margin:0px 0px 0px 0px;" />
+
+            <div class='left'>
+
+                <div>
+
+                    <img src="./Picture/arrow_blue.gif"  />&nbsp;&nbsp;<a href="./intro.php">About RBB</a><br />
+
+                    <img src="./Picture/arrow_blue.gif"  />&nbsp;&nbsp;<a href="./visionMiss.php">Mission/Vision</a><br />
+
+                    <img src="./Picture/arrow_blue.gif"  />&nbsp;&nbsp;<a href="./orgStructure.php">Organization Structure</a><br />
+
+					<img src="./Picture/arrow_blue.gif"  />&nbsp;&nbsp;<a href="./objAct.php">Major Objective/Activities</a><br />
+
+					<img src="./Picture/arrow_blue.gif"  />&nbsp;&nbsp;<a href="./bod.php">Board of Directors</a><br />
+					
+					<img src="./Picture/arrow_blue.gif"  />&nbsp;&nbsp;<a href="./managementcommittee.php">Management Committee</a><br />
+
+					<img src="./Picture/arrow_blue.gif"  />&nbsp;&nbsp;<a href="./branches.php">Branches</a><br />
+
+					<img src="./Picture/arrow_blue.gif"  />&nbsp;&nbsp;<a href="./photogallery/gallery.php">Gallery (Photo & Video)</a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </li>
+
+    <li class="separator"></li>
+      <li><a href="./feedback/feedback.php" class="arrow">Feedback</a></li>
+    
+    <li class="separator"></li>
+	<li>&nbsp;<a href="#CSS-Menu"></a></li>
+
+
+</ul>
+
+</td>
+
+</tr>
+<!-- end Interest rate scroll-->
+
+<tr><td width="1000" height="3"></td></tr> <!-- for horizalspace -->
+<tr><td width="1000" height="3"  bgcolor="#000099"></td></tr> <!-- for blue line -->
+<tr><td width="1000" height="4"></td></tr> <!-- for horizalspace -->
+</table>
+
+<!--end of top header -->
+
+
+
+
+
+<!--end header part--!>
+
+
+
+<!--Stat of Banner & e-banking login link -->
+
+<table width="1000px" height="75px"  border="0" cellpadding="0" cellspacing="0" align="center" bgcolor="#FFFFFFF" >
+
+<tr>
+
+    <!-- banner part -->
+
+	<td width="716px" height="200px" bgcolor="#27639d" > 
+
+		<!--Start Banner -->
+
+		<script type="text/javascript">
+
+			show_banners('home');
+
+	    </script>
+
+        <!--End Banner -->
+
+	</td>
+
+	<!-- ebanking login part -->
+
+	<td width="284px" height="200px" valign="top"> 
+
+		<!-- start e-banking link link -->
+
+		<table width="284px" height="200px" cellpadding="0" cellspacing="0" background="Picture/ebanking_bg.gif" bgcolor="#FFFFFF">
+
+		<tr><td colspan="2"  height="20"  valign="middle"align="right"> 
+
+		  <a href="mail/index.php"  target="_blank">
+
+		  <img src="Picture/home_pics/checkmail.jpg" height="13" border="0" /></a>&nbsp;&nbsp;
+
+		  </td> 
+
+		</tr>
+
+		<tr>
+
+			<td  height="100" align="center" valign="middle" colspan="2">
+
+			<a href="https://ebanking.rbb.com.np/">
+
+			<img src="Picture/home_pics/ebanking.gif" border="0" width="270" align="middle" />
+
+			</a>
+
+			</td> 
+
+		</tr>
+
+		<tr><td width="17" height="5" align="right" valign="top"></td>
+
+			 <td width="74" height="5"></td> 
+
+		</tr>
+
+
+
+		<tr>
+
+			<td  width="120px" align="left" valign="top">
+			<div id="ebankingLinkHP">                                                       
+      		<ul>
+
+			    <li><a href="https://ebanking.rbb.com.np">
+                <font size="-1">Log In</font></a></li>
+
+           		<li><a href="ebankingFAQ.php"><font size="-1">FAQ</font></a></li>
+
+           		<li><a href="downloads/InternetBankingForm.pdf" target="_blank"><font size="-1">Register now</font></a></li>
+
+      		</ul>      
+
+      		</div>			
+            </td> 
+            <td   width="180px" align="left" valign="top">
+            
+            <img src="Picture/io_io_sushilshrestha_small.jpg" width="40" border="0" align="left" class="padding-right-5px" />
+
+
+        <font size="-2" color="#FFFFFF">Sushil Shrestha, DGM<br/>
+        Information Officer<br/>
+        Phone:4252595 Ext: 2416<br/>
+        Fax: 4252931
+        </font>
+        </td> 
+
+		</tr>
+
+		<tr>
+
+			<td colspan="2px" width="284px" ></td> 
+
+		</tr>
+
+		</table>
+
+	</td>
+
+	<!-- end of e-banking  part-->
+
+</tr>
+
+</table>
+
+<!--End of Banner & e-banking login link -->
+
+
+
+<!--Start of Banner bottom -->
+
+<table width="1000px" height="5px" border="0" cellpadding="0" cellspacing="0" align="center" vspace="0" bgcolor="#FFFFFF">
+
+<tr><td height="10" valign="top"><img src="Picture/bottom.jpg"  height="10" width="1000px" align="top"></td></tr>
+
+</table>
+
+<!--End of Banner bottom !-->
+
+
+
+<!--Start of Blank Space !-->
+
+<table width="1000px" height="10" border="0" cellpadding="0" cellspacing="0" align="center" vspace="0" bgcolor="#FFFFFF">
+
+<tr><td width="1000px" height="10px"></td></tr>
+
+</table>
+
+<!--End of Blank Space !-->
+
+
+
+<!--Start of Body Part !-->
+
+<table width="1000px" border="0" cellpadding="0" cellspacing="0" align="center" vspace="0" bgcolor="#FFFFFF">
+
+<tr>
+
+	<!-- Start of Introduction Part !-->
+
+	<td height="180px" colspan="3" valign="top" bgcolor="#ffffff">
+
+	<div id="HomeIntroBlock">
+
+	<table height="180">
+
+	<tr>
+
+		<td valign="middle" width="220" height="150" align="center">
+
+		<!-- START OF THE PLAYER EMBEDDING TO COPY-PASTE -->
+
+		<!--<video width="220px" height="150px" controls>
+
+   		<source src="downloads/media/rbb.mp4" type="video/mp4">
+
+   		<object data="downloads/media/rbb.mp4" width="220" height="150">
+
+     	<embed src="downloads/media/rbb.swf" width="220" height="150">
+
+   		</object> 
+
+		Your browser does not support the this video element.
+
+		</video> 
+
+		-->
+
+	<!--	<div id="mediaplayer" align="left">Loading...</div>
+
+		<script type="text/javascript" src="includes/jwplayer/jwplayer.js"></script>
+
+		<script type="text/javascript">
+
+	 	jwplayer("mediaplayer").setup({
+
+	    file: "downloads/media/rbb.mp4",
+
+		height: 150,
+
+		width: 220,
+
+		image: "downloads/media/rbb_preview.jpg",
+
+		modes:[
+
+		    { type: "html5"},
+
+			{ type: "flash", src:"includes/jwplayer/player.swf" },
+
+			{ type: "download" }
+
+			]
+
+		});		
+
+		</script> -->
+
+		
+
+		<img src="Picture/home_pics/rbb_home.gif" width="220px"  border="0" class="captioned" alt="" title="Central Office, Kathmandu"  />
+
+		
+
+		<!-- END OF THE PLAYER EMBEDDING -->		
+
+		</td>
+
+		<td width="15px"></td>
+
+		<td valign="top" align="justify" height="180" width="220px">
+
+		<h1>About Us</h1>
+
+		<p align="justify">
+
+		RBB Ltd. - established on January 23, 1966 ( 2022 Magh 10 ) - a synonymous of stable and people's bank in Nepal -  is one of the pioneer Bank in the country with the history of nearly a half century. Earlier constituted under RBB act 2021 with the full ownership of the government of Nepal , the Bank  has been running under Bank and Financial Institute Act ( BAFIA ) and ..<a href="intro.php">read more</a>		
+
+		</p>		
+
+		</td>
+
+	</tr>
+
+	</table>
+
+	</div>	
+
+	</td>
+
+	<!-- End of Introduction Part !-->
+
+	
+
+	<td width="10px" valign="top" height="180"><!--Blank Space between About us and CDM--></td>
+
+
+
+    <!-- Start of CDM Service !-->
+
+    <td width="230px" height="180" valign="top">
+
+    <div id="HomeServiceBlock">
+
+	<h1><a href="#"><h1>C-ASBA Service</h1></a></h1>
+
+	<img src="Picture/home_pics/c-asba.jpg" width="90" border="0" align="left" class="Boderlesspadding-all-4-4px"/>
+
+	<p align="justify">RBBL has started C - ASBA service that 
+    lets you to apply on IPO staying home. The service is absolutely free and available through all the branches of RBBL.</p>
+	 <a href="downloads/OfficialForms/About_ASBA_public.pdf" target="_blank">&raquo; RBBL ASBA Service</a><br />
+	<a href="downloads/OfficialForms/CRN_Form.pdf" target="_blank">&raquo; CRN Form</a><br />
+	<a href="downloads/OfficialForms/ASBA_Application_Form.pdf" target="_blank">&raquo; ASBA Application Form</a><br />
+	<a href="downloads/OfficialForms/ASBA_Service_Branches_With_Contact_Person.pdf" target="_blank">&raquo; Branches / Contact Person</a>
+  
+	</div>    
+
+	</td>
+
+   <!-- End of CDM Service Part !-->
+
+
+
+   <td width="10px" valign="top" height="180"><!--Blank Space !-->  </td>
+
+
+
+   <!--Start of Right Links !-->
+
+
+
+   
+
+   <td width="284px" rowspan="7" valign="top" bgcolor="#ffffff" >
+
+        <!-- start of Foreign Exchange Rates -->
+
+		<table width="284px" height="145px" border="0" cellpadding="0" 
+
+		cellspacing="0"  align="left" bordercolor="#FFFFFF" bgcolor="#FFFFFF">
+
+		<tr>
+
+		<td width="284" height="20" background="Picture/comLinkHeader.gif" 
+
+			colspan="7" align="center" valign="middle">
+
+	    <div align="center" class="Links_Header">
+
+		<a href="fxrates.php" class="link10">Foreign Exchange Rates</a>
+
+		</div>
+
+		</td>
+
+	    </tr>
+
+	    
+		<tr><td width="284px" height="10px" align="center" valign="middle" colspan="7" bgcolor="#F9F9F9">
+
+	     <font class="ExchangeRateDate">Date:&nbsp;
+
+		 Tuesday, 19 December 2017 13:12:35</font></td>
+
+	    </tr>
+
+		<tr><td width="284" height="1" colspan="4" align="center" valign="middle"></td></tr>
+
+	    <tr><td width="70" height="10" align="center" valign="middle" bgcolor="#CBE3E4">
+
+	        <font face="Arial, Helvetica, sans-serif" size="-2" color="#333333">&nbsp;</font></td>
+
+		 	<td width="1" height="10" align="center" valign="middle"></td>
+
+		 	<td  height="10" align="center" colspan="3" valign="middle" bgcolor="#CBE3E4">
+
+	     	<font class="ExchangeRateTitle">Buying</font></td>
+
+		 	<td width="1" height="10" align="center" valign="middle"></td>
+
+		 	<td width="70" align="center" valign="middle" bgcolor="#CBE3E4">
+
+	      	<font class="ExchangeRateTitle">Selling</font></td>
+
+		</tr>
+
+		<tr><td width="230" height="1" colspan="4" align="center" valign="middle"></td></tr>
+
+		<tr>
+
+	  <td width="70" height="10" align="center" valign="middle" bgcolor="#F9F9F9">
+
+	     <strong> <font class="ExchangeRateTitleN">Currency</font></strong></td>
+
+		 
+
+		 <td width="1" height="10" align="center" valign="middle"></td>
+
+		 
+
+		 <td width="70" align="center" valign="middle" 
+
+
+
+bgcolor="#F9F9F9">
+
+	       <strong><font 
+
+
+
+class="ExchangeRateTitleN">Cash</font></strong></td>
+
+		 
+
+		  <td width="1" height="10" align="center" valign="middle"></td>
+
+		  
+
+		 <td width="70" height="10" align="center" valign="middle" 
+
+
+
+bgcolor="#F9F9F9">
+
+	       <strong><font 
+
+
+
+class="ExchangeRateTitleN">Other</font></strong></td>
+
+		 
+
+		 <td width="1" height="10" align="center" valign="middle"></td>
+
+		 
+
+		 <td width="70" height="10" colspan="2" align="center" 
+
+
+
+valign="middle" bgcolor="#F9F9F9">
+
+           <strong><font class="ExchangeRateTitleN">Rate</font></strong></td>
+
+	</tr>
+
+	<tr><td width="230" height="1" colspan="7" align="center" 
+
+
+
+valign="middle"></td></tr>  
+
+	<!--fetch data from db!-->
+
+	
+
+	
+	     <tr><td width="70" height="10" align="center" valign="middle" 
+
+
+
+bgcolor="#CBE3E4" >
+
+		 <img  src="Picture/fx_flag/USD.gif" 
+
+
+
+align="absmiddle"/> 
+
+	     <font class="ExchangeRateValueBlue">
+
+		 USD</font></td>
+
+		 
+
+		 <td width="1" height="10" align="center" valign="middle"></td>
+
+		 
+
+		 <td width="70" align="center" valign="middle" 
+
+
+
+bgcolor="#CBE3E4">
+
+	     <font class="ExchangeRateValueBlue">101.74</font></td>
+
+		 
+
+		  <td width="1" height="10" align="center" valign="middle"></td>
+
+		  
+
+		 <td width="70" height="10" align="center" valign="middle" 
+
+
+
+bgcolor="#CBE3E4">
+
+	     <font class="ExchangeRateValueBlue">102.25</font></td>
+
+		 
+
+		 <td width="1" height="10" align="center" valign="middle"></td>
+
+		 
+
+		 <td width="70" height="10" colspan="2" align="center" 
+
+
+
+valign="middle" bgcolor="#CBE3E4">
+
+           <font class="ExchangeRateValueBlue">102.85</font></td>
+
+	</tr> 
+
+	<tr><td width="230" height="1" colspan="4" align="center" 
+
+
+
+valign="middle"></td></tr>     
+
+	
+         <tr><td width="70" height="10" align="center" valign="middle" 
+
+
+
+bgcolor="#F9F9F9">
+
+		 <img align="absmiddle" src="Picture/fx_flag/EUR.gif"/> 
+
+		 <font class="ExchangeRateValueRead">
+
+		 EUR</font></td>
+
+		 
+
+		 <td width="1" height="10" align="center" valign="middle"></td>
+
+		 
+
+		 <td width="70" align="center" valign="middle" 
+
+
+
+bgcolor="#F9F9F9">
+
+	     <font class="ExchangeRateValueRead">119.32 </font></td>
+
+		 
+
+		  <td width="1" height="10" align="center" valign="middle"></td>
+
+		  
+
+		 <td width="70" height="10" align="center" valign="middle" 
+
+
+
+bgcolor="#F9F9F9">
+
+	     <font class="ExchangeRateValueRead">119.92 </font></td>
+
+		 
+
+		 <td width="1" height="10" align="center" valign="middle"></td>
+
+		 
+
+		 <td width="70" height="10" colspan="2" align="center" 
+
+
+
+valign="middle" bgcolor="#F9F9F9">
+
+           <font class="ExchangeRateValueRead">121.39</font></td>
+
+	</tr> 
+
+	<tr><td width="230" height="1" colspan="4" align="center" 
+
+
+
+valign="middle"></td></tr>     
+
+   
+	     <tr><td width="70" height="10" align="center" valign="middle" 
+
+
+
+bgcolor="#CBE3E4" >
+
+		 <img  src="Picture/fx_flag/GBP.gif" 
+
+
+
+align="absmiddle"/> 
+
+	     <font class="ExchangeRateValueBlue">
+
+		 GBP</font></td>
+
+		 
+
+		 <td width="1" height="10" align="center" valign="middle"></td>
+
+		 
+
+		 <td width="70" align="center" valign="middle" 
+
+
+
+bgcolor="#CBE3E4">
+
+	     <font class="ExchangeRateValueBlue">134.45</font></td>
+
+		 
+
+		  <td width="1" height="10" align="center" valign="middle"></td>
+
+		  
+
+		 <td width="70" height="10" align="center" valign="middle" 
+
+
+
+bgcolor="#CBE3E4">
+
+	     <font class="ExchangeRateValueBlue">135.12</font></td>
+
+		 
+
+		 <td width="1" height="10" align="center" valign="middle"></td>
+
+		 
+
+		 <td width="70" height="10" colspan="2" align="center" 
+
+
+
+valign="middle" bgcolor="#CBE3E4">
+
+           <font class="ExchangeRateValueBlue">137.10</font></td>
+
+	</tr> 
+
+	<tr><td width="230" height="1" colspan="4" align="center" 
+
+
+
+valign="middle"></td></tr>     
+
+	
+         <tr><td width="70" height="10" align="center" valign="middle" 
+
+
+
+bgcolor="#F9F9F9">
+
+		 <img align="absmiddle" src="Picture/fx_flag/CHF.gif"/> 
+
+		 <font class="ExchangeRateValueRead">
+
+		 CHF</font></td>
+
+		 
+
+		 <td width="1" height="10" align="center" valign="middle"></td>
+
+		 
+
+		 <td width="70" align="center" valign="middle" 
+
+
+
+bgcolor="#F9F9F9">
+
+	     <font class="ExchangeRateValueRead">102.67 </font></td>
+
+		 
+
+		  <td width="1" height="10" align="center" valign="middle"></td>
+
+		  
+
+		 <td width="70" height="10" align="center" valign="middle" 
+
+
+
+bgcolor="#F9F9F9">
+
+	     <font class="ExchangeRateValueRead">103.19 </font></td>
+
+		 
+
+		 <td width="1" height="10" align="center" valign="middle"></td>
+
+		 
+
+		 <td width="70" height="10" colspan="2" align="center" 
+
+
+
+valign="middle" bgcolor="#F9F9F9">
+
+           <font class="ExchangeRateValueRead">104.36</font></td>
+
+	</tr> 
+
+	<tr><td width="230" height="1" colspan="4" align="center" 
+
+
+
+valign="middle"></td></tr>     
+
+   
+	     <tr><td width="70" height="10" align="center" valign="middle" 
+
+
+
+bgcolor="#CBE3E4" >
+
+		 <img  src="Picture/fx_flag/AUD.gif" 
+
+
+
+align="absmiddle"/> 
+
+	     <font class="ExchangeRateValueBlue">
+
+		 AUD</font></td>
+
+		 
+
+		 <td width="1" height="10" align="center" valign="middle"></td>
+
+		 
+
+		 <td width="70" align="center" valign="middle" 
+
+
+
+bgcolor="#CBE3E4">
+
+	     <font class="ExchangeRateValueBlue">77.74</font></td>
+
+		 
+
+		  <td width="1" height="10" align="center" valign="middle"></td>
+
+		  
+
+		 <td width="70" height="10" align="center" valign="middle" 
+
+
+
+bgcolor="#CBE3E4">
+
+	     <font class="ExchangeRateValueBlue">78.13</font></td>
+
+		 
+
+		 <td width="1" height="10" align="center" valign="middle"></td>
+
+		 
+
+		 <td width="70" height="10" colspan="2" align="center" 
+
+
+
+valign="middle" bgcolor="#CBE3E4">
+
+           <font class="ExchangeRateValueBlue">78.83</font></td>
+
+	</tr> 
+
+	<tr><td width="230" height="1" colspan="4" align="center" 
+
+
+
+valign="middle"></td></tr>     
+
+			 
+
+	
+
+	<!--endfetch data from db!-->
+
+	
+
+	<tr><td width="230" height="16" background="Picture/comLinkHeader.gif" 
+
+
+
+colspan="7" align="center" valign="middle">
+
+	    <div align="center" class="Links_Header"><a href="fxrates.php" 
+
+
+
+class="link6"><font class="ExchangeRateDate">Click here for 
+
+
+
+details</font></a></div></td>
+
+	</tr>
+
+	<tr><td  colspan="7" height="5"></td>
+
+	</tr>
+
+	</table> 
+
+	<!-- end email part -->
+
+
+
+    <!-- Start of Blank Space between email & Quick Link Section -->
+
+	<table width="284"  border="0" cellpadding="0" cellspacing="0" bgcolor="#FFFFFF">
+
+	<tr><td width="284" height="5"></td></tr>
+
+	</table>
+
+	<!-- End of Blank Space between email & Quick Link Section -->
+
+	
+
+	<!-- Start of Quick Link Section -->
+
+	
+
+     <table width="284"  border="0" cellpadding="0" cellspacing="0" bgcolor="#FFFFFF">
+
+	 <tr><td width="284" height="20" align="center" valign="middle" background="Picture/QuickLinksbg.gif" bgcolor="#FFFFFF">
+
+  	      <div align="center" class="Links_Header"></div>
+
+		  
+
+		  </td>
+
+	  </tr>
+
+	  <tr><td width="284" height="10" align="center" valign="middle" ></td></tr>
+
+	  <tr><td width="284" valign="top" align="left" bgcolor="#FFFFFF">
+
+             <div id="sidebarHome">
+
+             <ul>
+              <li><a href="downloads/SuchanaKoHak2064.pdf">Suchana Ko Hak</a>&nbsp;<img src="Picture/New_BlinkIco.gif"  /></li>
+             <li><a href="downloads/Dormant account_10yr.pdf">Dormant A/C from 10 Years </a>&nbsp;<img src="Picture/New_BlinkIco.gif"  /></li>
+			 	<li><a href="interest_rates.php">Interest Rates</a></li>
+
+			 	<li><a href="fxrates.php">Foreign Exchange Rate</a></li>
+
+			 	<li><a href="downloads/emi_calculator.xls" target="_blank">EMI Calculator</a></li>
+
+			 	<li><a href="financial_reports.php">Annual Reports (Financial & AGM)</a></li> 
+
+				<li><a href="newsletter.php">News Letters</a></li>
+               <!--  <li><a href="news/flc_programs.php">Financial Literacy Campaign</a></li>  -->
+
+				<li><a href="notice.php">Notices</a>
+                &nbsp;<img src="Picture/New_BlinkIco.gif"  />&nbsp;&nbsp;<a href="tnotice.php">Tender Notice</a>&nbsp;<img src="Picture/New_BlinkIco.gif"  />
+                </li>
+
+				<li><a href="vacancynotice.php">Career Notice</a>&nbsp; | <a href="https://recruitment.rbb.com.np" target="_blank">Check Your Application Status</a>&nbsp;<img src="Picture/New_BlinkIco.gif"  /></li>
+
+				<li><a href="downloads.php">Downloads</a></li>
+
+				<!-- <li><a href="photogallery/gallery.php">Gallery (Photo & Video)</a></li> -->
+
+			 </ul>
+
+             </div>
+
+		  	</td>
+
+		</tr>
+
+		<tr><td height="9" width="284"></td></tr>
+
+	  </table>
+
+		
+
+	<!--End of Quick Link Section -->
+
+	
+
+	    <!-- Start of Notice Section -->
+
+	<table width="284"  border="0" cellpadding="0" cellspacing="0" 
+
+
+
+bgcolor="#FFFFFF">
+
+	<tr><td width="284" height="20" align="center" valign="middle" 
+
+
+
+background="Picture/QuickLinksbg_notice.gif" >
+
+  	    <div align="center" class="Links_Header"></div>
+
+	</td></tr>
+
+	<tr><td width="284" height="10" align="center" valign="middle" >
+
+  	    
+
+	</td></tr>
+
+	<tr>
+
+	    <td width="284" height="80" valign="top">
+
+                   
+
+  				<div id="Notice">
+
+				<ul> 
+
+				<li>
+
+    			<h1><a href="notice.php#DMAT Servi"> 
+
+      				DMAT Service</a><font 
+
+
+
+color="#990000"> (new)</font></h1>
+
+				 </li>
+
+				  </ul>
+
+    			</div>
+
+			       
+
+  				<div id="Notice">
+
+				<ul> 
+
+				<li>
+
+    			<h1><a href="notice.php#Notice - R"> 
+
+      				Notice - RBBL ASBA Service</a><font 
+
+
+
+color="#990000"> (new)</font></h1>
+
+				 </li>
+
+				  </ul>
+
+    			</div>
+
+			       
+
+  				<div id="Notice">
+
+				<ul> 
+
+				<li>
+
+    			<h1><a href="notice.php#Interest S"> 
+
+      				Interest Subsidy</a><font 
+
+
+
+color="#990000"> (new)</font></h1>
+
+				 </li>
+
+				  </ul>
+
+    			</div>
+
+			
+			<div id="Notice"><center><a href="notice.php" 
+
+
+
+target="_top" class="MoreNotice">More Notice >></a></center></div><br>		  </td>
+
+	</tr>
+
+	</table>
+
+	<!-- End of Notice Link Section !-->
+
+	
+
+    
+
+	<table width="284" height="150" border="0" cellpadding="0" cellspacing="0" bgcolor="#FFFFFF">
+
+	
+
+	<tr><td width="284" height="20" valign="middle" background="Picture/comLinkHeader.gif">
+
+	<div align="center" class="Links_Header"><a href="news/news_events.php" class="link10">News & Events</a></div></td></tr>
+
+	
+
+	<tr><td width="284" height="130"  valign="top">
+
+           <script type="text/javascript">
+
+				//specify path to your external page:
+
+				var iframesrc="news/news.php"
+
+
+
+				document.write('<iframe id="datamain" src="'+iframesrc+'" width="270px" height="130px" marginwidth="0" marginheight="0" hspace="0" vspace="0" frameborder="0" scrolling="no"></iframe>')
+
+			</script>
+
+	</td></tr>
+
+	</table>   </td>
+
+   <!--End of Right Links !-->
+
+</tr>
+
+
+
+<!--Blank Space between intro .. and paybill line...!-->
+
+<tr>
+
+  <td height="10" colspan="5" valign="top"></td>
+
+</tr> 
+
+ 
+
+<tr valign="top">
+
+<!-- Start of Paybill !-->
+
+<td width="215px"  height="180" valign="top" bgcolor="#ffffff">
+
+
+
+<div id="HomeServiceBlockRow2">
+
+<img src="Picture/home_pics/mobilebanking.gif" width="215"  border="0" align="top" />
+
+	<ul>    <li><a href="mbanking.php">Balance Enquiry</a></li>
+
+		   <li><a href="mbanking.php">Mini Statement</a></li>
+
+           <li><a href="mbanking.php">Cheque Book Request</a></li>
+
+		   <li><a href="mbanking.php">Purchase Recharge Cards </a></li> 
+
+           <li><a href="mbanking.php">Payments on Retail outlets</a></li>
+
+		   <li><a href="mbanking.php">Top ups and Bill Payments</a></li>   
+
+      </ul> 
+	    &nbsp;&nbsp;&nbsp;&nbsp;
+	  	   <a href="http://www.rbb.com.np/mobileapps.php"> &raquo; <font color="#990000" size="-2"> Get Apps</font></a>
+		&nbsp;&nbsp;&nbsp;&nbsp;
+	  	   <a href="downloads/Brochure/MobileBankingBrochure.pdf"> 
+		   &raquo; <font color="#990000" size="-2"> Mobile Leaflet</font></a>
+
+
+	</div></td>
+
+<!-- End of Paybill !-->
+
+
+
+<td width="8px" > <!--Blank Space !--></td>
+
+<td width="215px"  valign="top" bgcolor="#ffffff">
+
+<div id="HomeServiceBlockRow2">
+
+	<h1><a href="agrloan.php"><h1>Agriculture Lending</h1></a></h1>
+
+	<img src="Picture/home_pics/agriculture.gif" width="215px" border="0" align="top" class="Boderlesspadding-all-4-4px"/>
+
+	<br />
+
+	<p align="justify">RBBL, with great pleasure, announces the restarting of agriculture lending to its Clients considering the due importance of developing agriculture sector as it is a predominant contributors .. <a href="agrloan.php">read more</a>	
+
+</div></td>
+
+<td width="1" > <!--Blank Space !--></td>	
+
+<!-- Start of News & Event !-->
+
+<td width="215"   valign="top" bgcolor="#ffffff">
+
+	 <div id="HomeServiceBlock">
+
+	<h1><a href="blb.php"><h1>Branchless Banking</h1></a></h1>
+
+	<img src="Picture/home_pics/blb.gif" width="100" border="0" align="left" class="Boderlesspadding-all-4-4px"/>
+
+	<p align="justify">Branchless Banking (BLB) represents a significantly cheaper alternative to conventional branch-based banking that allows financial institutions .. <a href="blb.php">read more</a>
+
+	<ul><li>Cash Deposit and withdraw </li>
+
+		<li>Account-to-account Fund transfer</li>
+
+		<li>Mini Statement</li>
+
+      </ul>   
+
+	</div></td>
+
+
+
+<!-- Start of News & Event !-->
+
+
+
+<td width="1" ><!--Blank Space !--></td>
+
+</tr>
+
+<!--Blank Space between intro .. and paybill line...!-->
+
+<tr>
+
+  <td height="10" colspan="5" valign="top"></td>
+
+</tr> 
+
+
+
+<tr valign="top">
+
+<!-- Start of Paybill !-->
+
+<td colspan="3" height="180"   valign="top" bgcolor="#fffffc">
+
+<div id="HomeEndRowDouble">
+
+	<h1><a href="mPayServices.php"><h1>Online Services</h1></a></h1>
+
+	<br />
+
+	<a href="javascript:animatedcollapse.show('os1')">
+
+	
+
+	<h2>Person to Person Fund transfer </h2></a>
+
+	<div id="os1" style="width: 450px; display:none vertical-align:top">
+
+		<br />
+
+		<img src="Picture/home_pics/p2p.gif" width="120" border="0" align="left" class="padding-right-5px" />
+
+		<p align="justify"><font color="#0066FF">MobilePay Customers of bank can transfer money (funds) from their account 
+
+		easily & securely to the other MobilePay customer of  the bank.</font> <br />
+		<br />
+
+		-	Type <b><font color="#d96e5a">SEND</font>&nbsp;<font color="#02a731">Mobile Number</font>&nbsp;
+
+		<font color="#2665d9"> Amount</font> </b> <font color="#0066FF">and send sms to <b>5688</b></font>		</p>
+
+	</div>
+
+
+
+	<a href="javascript:animatedcollapse.toggle('os2')">
+
+	<h2>Mobile SMS Payment Service</h2></a>
+
+	<div id="os2" style="width: 450px; height:auto; display:none vertical-align:top">
+
+		<p align="justify"><img src="Picture/home_pics/diskhome_logo.gif" width="60" border="0" align="left" class="padding-right-5px"/>
+
+			<font color="#0066FF">-	Dish Home Recharge card purchase of &nbsp;&nbsp;NRS 250, 500 & 1000</font><br />
+
+			-	Type <font color="#7058d1"><b>DTH</b></font>&nbsp;<font color="#ff003a"><b>Amount</b></font> and send sms to <b>5688</b>		</p>
+
+		<p align="justify"><img src="Picture/home_pics/subisu_logo.gif" width="60" border="0" align="left" class="padding-right-5px"/>
+
+			<font color="#0066FF">-	Subisui Cable & Internet Bill payment </font><br />
+
+			-	Type <font color="#7058d1"><b>SUBISU</b></font>&nbsp;<font color="#02a731"><b>ID</b></font>&nbsp;
+
+			<font color="#ff003a"><b>Amount</b></font> and send sms to <b>5688</b>		</p>
+
+	</div>
+
+	
+
+	<a href="javascript:animatedcollapse.toggle('os3')">
+
+	<h2>Web (online internet purchase) payments</h2></a>
+
+	<div id="os3" style="width: 450px; display:none vertical-align:top">
+
+			<a href="javascript:animatedcollapse.show('op1')"><h3><font color="#744097">www.muncha.com</font></h3></a>
+
+			<div id="op1" style="width: 450px; display:none vertical-align:top">
+
+			<p align="justify">
+
+			<img src="Picture/home_pics/muncha_logo.gif" width="80" border="0" align="left" class="padding-right-5px"/>
+
+			<a href="http://www.muncha.com" class="">www.muncha.com</a><br />
+
+			<font color="#0066FF">(Purchase online large variety of items from muncha.com with *free home delivery service)</font>		</p>
+
+			</div>
+
+			
+
+			<a href="javascript:animatedcollapse.show('op2')"><h3><font color="#744097">www.cgdigital.com.np</font></h3></a>
+
+			<div id="op2" style="width: 450px; height:20px display:none vertical-align:top">
+
+			<p align="justify">
+
+			<img src="Picture/home_pics/cgdigital_logo.gif" width="80" border="0" align="left" class="padding-right-5px"/>
+
+			<a href="http://www.cgdigital.com.np">www.cgdigital.com.np</a><br />
+
+			<font color="#0066FF">(Purchase online large variety of digital & home appliance from Chaudhary Groups e-store 
+
+			with *free home delivery service)</font></p>
+
+			</div>
+
+
+
+			<a href="javascript:animatedcollapse.toggle('op3')"><h3><font color="#744097">www.qfxcinemas.com</font></h3></a>
+
+			<div id="op3" style="width: 450px; display:none vertical-align:top">
+
+			<p align="justify">
+
+			<img src="Picture/home_pics/qfx_logo.gif" width="80" border="0" align="left" class="padding-right-5px"/>
+
+			<a href="http://www.qfxcinemas.com">www.qfxcinemas.com</a><br />
+
+			<font color="#0066FF">(Purchase online movie tickets of the Civil Mall, JaiNepal & Kumari digital theatre )</font>			</p>
+
+			</div>
+
+	</div>
+
+</div></td>
+
+<!-- End of Paybill !-->
+
+
+
+<td width="1" > <!--Blank Space !--></td>
+
+
+
+<!-- Start of News & Event !-->
+
+<td width="242"   valign="top" bgcolor="#ffffff" >
+
+	 <div id="HomeServiceBlock">
+
+	<h1><a href="retailBanking.php"><h1>RBB Loans</h1></a></h1>
+
+
+
+	<a href="javascript:animatedcollapse.show('ln1')">
+
+	<h2>Housing Loan </h2></a>
+
+	<div id="ln1" style="width: 230px; display:none vertical-align:top">
+
+		<br />
+
+		<img src="Picture/home_loan_small.jpg" width="70" border="0" align="left" class="padding-right-5px" />
+
+		<p align="justify">The bank provides the housing loan facilities for the construction of house 
+
+for both residential and commercial purpose and also ...<a href="retailBanking.php">read more</a>		</p>
+
+	</div>
+
+	
+
+	<a href="javascript:animatedcollapse.toggle('ln2')">
+
+	<h2>Apartment Loan </h2></a>
+
+	<div id="ln2" style="width: 230px; display:none vertical-align:top">
+
+		<br />
+
+		<img src="Picture/apartmentloan_small.jpg" width="70" border="0" align="left" class="padding-right-5px" />
+
+		<p align="justify">The bank provided finance for the purchase of the apartment...
+
+		<a href="retailBanking.php">read more</a>
+
+		</p>
+
+	</div>
+
+	<a href="javascript:animatedcollapse.toggle('ln3')">
+
+	<h2>Education Loan </h2></a>
+
+	<div id="ln3" style="width: 230px; display:none vertical-align:top">
+
+		<br />
+
+		<img src="Picture/educationloan_small.jpg" width="70" border="0" align="left" class="padding-right-5px" />
+
+		<p align="justify">The bank provides the finance to support for the customers education. This finance ..
+
+		<a href="retailBanking.php">read more</a> 
+
+		</p>
+
+	</div>
+
+	<a href="javascript:animatedcollapse.toggle('ln4')">
+
+	<h2>Vehicle Loan </h2></a>
+
+	<div id="ln4" style="width: 230px; display:none vertical-align:top">
+
+		<br />
+
+		<img src="Picture/carloan_small.jpg" width="70" border="0" align="left" class="padding-right-5px" />
+
+		<p align="justify">The bank provides the vehicle loan facilities for the purchase of new vehicle for both commercial and residential purpose ..<a href="retailBanking.php">read more</a> 
+
+		</p>
+
+	</div>
+
+	
+
+	   
+
+	</div>
+
+</td>
+
+
+
+<!-- Start of News & Event !-->
+
+
+
+<td width="1" ><!--Blank Space !--></td>
+
+</tr>
+
+
+
+<!--Blank Space between intro .. and paybill line...!-->
+
+<tr>
+
+  <td height="5" colspan="5" valign="top"></td>
+
+</tr> 
+
+</table>
+
+<!--End of Blank Space !-->
+
+
+
+<!--Start of Blank Space !-->
+
+<table width="1000"  border="0" cellpadding="0" cellspacing="0" align="center" vspace="0" bgcolor="#FFFFFF">
+
+<td width="1000" ></td>
+
+</table>
+
+<!--End of Blank Space !-->
+
+
+
+
+
+<!--Start of footer !-->
+
+
+<!--Start of Footer  !-->
+
+
+
+<!--Start of Footer link & Copyright !-->
+
+<link href="./hitcounter/css/style.css" rel="stylesheet" type="text/css"  />
+
+<link href="./css/style.css" rel="stylesheet" type="text/css"  />
+
+<table width="1000" height="20" border="0" cellpadding="0" cellspacing="0" align="center" vspace="0" background="Picture/top_header1.gif" bgcolor="#FFFFFF">
+
+  <tr width="1000" height="20" > 
+
+    <td width="20" height="20"></td>
+
+    <td width="100" height="20" align="center" valign="middle">
+
+	<a href="./retailBanking.php" class="link6">Housing Loan</a>
+
+	</td>
+
+	<td valign="middle">|</td>
+
+	<td width="100" height="20" align="center" valign="middle">
+
+	<a href="./retailBanking.php" class="link6">Apartment Loan</a>
+
+	</td>
+
+	<td valign="middle">|</td>
+
+	<td width="100" height="20" align="center" valign="middle"><a href="./retailBanking.php" class="link6">Vehicle Loan </a></td>
+
+	<td>|</td>
+
+	<td width="100" height="20" align="center" valign="middle"><a href="./retailBanking.php" class="link6">Education Loan </a></td>
+
+	<td>|</td>
+
+	<td width="100" height="20" align="center" valign="middle"><a href="./agrloan.php" class="link6">Agriculture Loan</a></td>
+
+	<td width="100" height="20" align="center" valign="middle">
+
+	<font class="HitCounterTitle">	Hit Counter :</font></td>
+
+	<td  height="20" align="left" valign="bottom"> 
+
+	<font class="HitCounter">0002948989</font>
+
+	</td>
+
+	<td height="20" align="right" valign="middle" >
+
+	<font class="Copyright">&copy; Copyright 2013 Rastriya Banijya Bank Ltd. </font>	</td>
+
+	<td width="20" height="20"></td>
+
+  </tr>
+
+</table>
+
+<!--End of Footer link & Copyright !-->
+
+
+
+<table width="1000" height="120" border="0" cellpadding="0" cellspacing="0" align="center" vspace="0" bgcolor="#FFFFFF">
+
+  <tr>  
+
+    <td width="199" height="120" onmouseover="style.backgroundColor='#CDD6ED';" onmouseout="style.backgroundColor='#ffffff';" >
+
+	<table width="199" height="120"  border="0" cellpadding="0" cellspacing="0" >
+
+		<tr align="center">
+
+		  <td height="50" valign="middle">
+
+		<font class="FooterTitle"><a href="./ebanking.php" class="FooterTitleLink">E-Banking</a></font></td>
+
+		</tr>
+
+		<tr align="center"><td valign="top" height="5"><font class="FooterText">
+
+		Easy way to access your bank account
+
+		</font></td></tr>
+
+		<tr align="center">
+
+		  <td valign="top" height="20"><font class="FooterText">
+
+		Rastriya Banijya Bank has introduced e-banking system that makes the customers access to the account easy.
+
+		</font></td>
+
+		</tr>
+
+    	<tr><td></td></tr>
+
+	</table>
+
+	</td>
+
+	
+
+	<td width="1" height="120" bgcolor="#F3F3F3"></td>
+
+	
+
+	<td width="199" height="120" onmouseover="style.backgroundColor='#CDD6ED';" onmouseout="style.backgroundColor='#ffffff';">
+
+		<table width="199" height="120"  border="0" cellpadding="0" cellspacing="0" >
+
+		<tr align="center">
+
+		  <td height="50" valign="middle">
+
+		<font class="FooterTitle"><a href="./mbanking.php" class="FooterTitleLink">Mobile Banking</a></font></td>
+
+		</tr>
+
+		<tr align="center"><td valign="top" height="5"><font class="FooterText">
+        RBB provides secure complete Mobile Banking service which can provides Inquiries, Financial transactions 
+		</font></td></tr>
+		<tr align="center">
+		  <td valign="top" height="20"><font class="FooterText">
+		as well as utility payments through sms text as well mobile application
+		</font></td>
+		</tr>
+
+    	<tr><td></td></tr>
+
+		</table>
+
+	</td>
+
+	
+
+	<td width="1" height="120"  bgcolor="#F3F3F3"></td>
+
+	
+
+	<td width="199" height="120" onmouseover="style.backgroundColor='#CDD6ED';" onmouseout="style.backgroundColor='#ffffff';">
+
+	<table width="199" height="120"  border="0" cellpadding="0" cellspacing="0" >
+
+		<tr align="center"><td height="50" valign="middle">
+
+		<font class="FooterTitle"><a href="./mPay.php" class="FooterTitleLink">Mobile Pay</a></font></td></tr>
+
+		<tr align="center"><td valign="top" height="5"><font class="FooterText">
+
+		RBB provides mobile pay service
+
+		</font></td></tr>
+
+		<tr align="center">
+
+		  <td valign="top" height="20"><font class="FooterText">
+
+		for the payment of your utility bills.
+
+		</font></td>
+
+		</tr>
+
+    	<tr><td></td></tr>
+
+		</table>
+
+	</td>
+
+	
+
+	<td width="1" height="150" bgcolor="#F3F3F3"></td>
+
+	
+
+	<td width="199" height="120" onmouseover="style.backgroundColor='#CDD6ED';" onmouseout="style.backgroundColor='#ffffff';">
+
+		<table width="199" height="120"  border="0" cellpadding="0" cellspacing="0" >
+
+		<tr align="center"><td height="50" valign="middle">
+
+		<font class="FooterTitle"><a href="./atm.php" class="FooterTitleLink">ATM/Card Services</a></font></td></tr>
+
+		<tr align="center"><td valign="top" height="5"><font class="FooterText">
+
+		RBB provides ATM Service
+
+		</font></td></tr>
+
+		<tr align="center">
+
+		  <td valign="top" height="20"><font class="FooterText">
+
+		through its own dozens of outlets.
+
+		</font></td>
+
+		</tr>
+
+    	<tr><td></td></tr>
+
+		</table>
+
+	
+
+	</td>
+
+	<td width="1" height="120" bgcolor="#F3F3F3"></td>
+
+	<td width="199" height="120" onmouseover="style.backgroundColor='#CDD6ED';" onmouseout="style.backgroundColor='#ffffff';">
+
+		<table width="199" height="120"  border="0" cellpadding="0" cellspacing="0" >
+
+		<tr align="center"><td height="50" valign="middle">
+
+		<font class="FooterTitle"><a href="./abbs.php" class="FooterTitleLink">ABBS Service</a></font></td></tr>
+
+		<tr align="center"><td valign="top" height="5"><font class="FooterText">
+
+		RBB provides Any Branch Banking Service(ABBS)
+
+		</font></td></tr>
+
+		<tr align="center">
+
+		  <td valign="top" height="20"><font class="FooterText">
+
+		through it's all branches accross the country.
+
+		</font></td>
+
+		</tr>
+
+    	<tr><td></td></tr>
+
+		</table>
+
+	</td>
+
+  </tr>
+
+</table>
+
+
+
+<!--End of Footer  !-->
+
+
+
+
+<!--End of footer !-->
+
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
